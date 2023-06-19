@@ -59,7 +59,7 @@ function randDomain(){
 }
 
 function randomUser($ua){
-	$url = "http://ninjaname.horseridersupply.com/indonesian_name.php";
+	$url = "http://ninjaname.horseridersupply.com/ninja_name.php";
 	$param = "number_generate=1&gender_type=male&submit=Generate";
 	$headers = array();
 	$headers[] = 'Content-Length: '.strlen($param);
